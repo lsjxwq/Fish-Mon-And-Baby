@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            padding-top:10px;
+        }
+        .all_bg{
+            width:800px;
+            height:600px;
+            margin: 0px auto;
+        }
+        #allcanvas{
+            position: relative;
+            width:800px;
+            height:600px;
+            margin: 0px;
+        }
+        #canvas1{
+            position: absolute;
+            bottom:0;
+            left:0;
+            z-index: 2;
+            background:rgba(0,0,30,0.2);
+        }
+        #canvas2{
+            position: absolute;
+            bottom:0;
+            left:0;
+            z-index: 0;
+
+        }
+        #canvas3{
+             position: absolute;
+             top:0px;
+             left:255px;
+             z-index: 1;
+            background:rgba(100,100,255,0.44);
+            box-shadow: 0px 0px 100px 40px rgba(100,100,255,0.5);
+             border-radius: 50%;
+         }
+        #canvas4{
+            position: absolute;
+            bottom:0;
+            left:0;
+            z-index: 0;
+        }
+        #canvas5{
+            position: absolute;
+            bottom:0;
+            left:0;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="all_bg">
+        <div id="allcanvas">
+            <canvas id="canvas1" width="800" height="600"></canvas>
+            <canvas id="canvas2" width="800" height="600"></canvas>
+            <canvas id="canvas3" width="300" height="300"></canvas>
+            <canvas id="canvas4" width="800" height="600"></canvas>
+            <canvas id="canvas5" width="800" height="600"></canvas>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+<script src="js/commonFunctions.js"></script>
+<script src="js/background.js"></script>
+<script src="js/ane.js"></script>
+<script src="js/fruit.js"></script>
+<script src="js/mom.js"></script>
+<script src="js/baby.js"></script>
+<script src="js/collision.js"></script>
+<script src="js/data.js"></script>
+<script src="js/wave.js"></script>
+<script src="js/halo.js"></script>
+<script src="js/dust.js"></script>
+<script src="js/start.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
